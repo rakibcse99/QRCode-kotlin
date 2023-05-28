@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ScanFragment"
+    android:background="#fbfbfb"
+    android:theme="@style/Theme.Scan"
+    tools:ignore="MissingClass">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            android:background="@drawable/image_corner"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="155dp"
+                android:padding="16dp"
+                android:src="@drawable/qrcode"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonScan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginTop="16dp"
+                android:text="Scan code" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
