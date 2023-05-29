@@ -15,9 +15,10 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="16dp"
-        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         android:textStyle="bold"
-        android:text="@string/delete_dialog_text"/>
+        android:text="Confirm Delete"/>
 
 
     <TableLayout
@@ -43,7 +44,7 @@
             <Button
                 android:id="@+id/btnOk"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:scaleY="1.2"
                 android:text="delete"
